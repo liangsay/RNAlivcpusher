@@ -1,0 +1,826 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* RNAlivcpusherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNAlivcpusherTests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-RNAlivcpusher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-RNAlivcpusher.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		7F29D37B2B0371D900FBDE44 /* WUAlivcAudienceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F29D3792B0371D900FBDE44 /* WUAlivcAudienceView.m */; };
+		7F29D37E2B03721900FBDE44 /* WUAlivcAudienceViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F29D37D2B03721900FBDE44 /* WUAlivcAudienceViewManager.m */; };
+		7F60BDF82AF3793600C3450D /* WUAlivcAnchorViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F60BDF32AF3793600C3450D /* WUAlivcAnchorViewManager.m */; };
+		7F60BDF92AF3793600C3450D /* WUAlivcAnchorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F60BDF72AF3793600C3450D /* WUAlivcAnchorView.m */; };
+		7F60BDFC2AF37A0900C3450D /* RNAlivcpusher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F60BDFB2AF37A0900C3450D /* RNAlivcpusher.m */; };
+		7F60BE0A2AF37A8400C3450D /* AUILoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F60BDFE2AF37A8400C3450D /* AUILoginViewController.m */; };
+		7F60BE0B2AF37A8400C3450D /* AUIHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F60BDFF2AF37A8400C3450D /* AUIHomeViewController.m */; };
+		7F60BE0C2AF37A8400C3450D /* AUILiveCreateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F60BE052AF37A8400C3450D /* AUILiveCreateViewController.m */; };
+		7F60BE0D2AF37A8400C3450D /* AUILiveListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F60BE062AF37A8400C3450D /* AUILiveListViewController.m */; };
+		7F60BE0E2AF37A8400C3450D /* AUILiveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F60BE072AF37A8400C3450D /* AUILiveManager.m */; };
+		7F60BE0F2AF37A8400C3450D /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7F60BE092AF37A8400C3450D /* Resource.bundle */; };
+		7F60BE112AF37DAE00C3450D /* license.crt in Resources */ = {isa = PBXBuildFile; fileRef = 7F60BE102AF37DAE00C3450D /* license.crt */; };
+		7FC006672B05B1850025BBA1 /* CustomViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC006662B05B1850025BBA1 /* CustomViewManager.m */; };
+		7FC0066A2B05B1AF0025BBA1 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC006692B05B1AF0025BBA1 /* CustomView.m */; };
+		7FC0066D2B077FD70025BBA1 /* WUQueenBeautyModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0066C2B077FD70025BBA1 /* WUQueenBeautyModule.m */; };
+		7FC006712B07867D0025BBA1 /* NSBundle+Alivcpusher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC006702B07867D0025BBA1 /* NSBundle+Alivcpusher.m */; };
+		7FCF2F872B0C91B2006586AF /* RCTScreenModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCF2F812B0C91B2006586AF /* RCTScreenModule.m */; };
+		7FCF2F882B0C91B2006586AF /* RNAliplayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCF2F822B0C91B2006586AF /* RNAliplayer.m */; };
+		7FCF2F892B0C91B2006586AF /* RNAliplayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCF2F852B0C91B2006586AF /* RNAliplayerManager.m */; };
+		7FCF2F8C2B0C9BC0006586AF /* AUILiveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCF2F8B2B0C9BC0006586AF /* AUILiveManager.m */; };
+		7FCF2F8F2B0C9C05006586AF /* AUIRoomItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCF2F8D2B0C9C04006586AF /* AUIRoomItem.m */; };
+		7FFBC3332AFE1289002BEB97 /* AUIRoomItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFBC3322AFE1289002BEB97 /* AUIRoomItem.m */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = RNAlivcpusher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* RNAlivcpusherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNAlivcpusherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* RNAlivcpusherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNAlivcpusherTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* RNAlivcpusher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNAlivcpusher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RNAlivcpusher/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = RNAlivcpusher/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RNAlivcpusher/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNAlivcpusher/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNAlivcpusher/main.m; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-RNAlivcpusher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAlivcpusher.debug.xcconfig"; path = "Target Support Files/Pods-RNAlivcpusher/Pods-RNAlivcpusher.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-RNAlivcpusher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAlivcpusher.release.xcconfig"; path = "Target Support Files/Pods-RNAlivcpusher/Pods-RNAlivcpusher.release.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-RNAlivcpusher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNAlivcpusher.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F29D3792B0371D900FBDE44 /* WUAlivcAudienceView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WUAlivcAudienceView.m; sourceTree = "<group>"; };
+		7F29D37A2B0371D900FBDE44 /* WUAlivcAudienceView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WUAlivcAudienceView.h; sourceTree = "<group>"; };
+		7F29D37C2B03721900FBDE44 /* WUAlivcAudienceViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WUAlivcAudienceViewManager.h; sourceTree = "<group>"; };
+		7F29D37D2B03721900FBDE44 /* WUAlivcAudienceViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WUAlivcAudienceViewManager.m; sourceTree = "<group>"; };
+		7F60BDF32AF3793600C3450D /* WUAlivcAnchorViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUAlivcAnchorViewManager.m; sourceTree = "<group>"; };
+		7F60BDF42AF3793600C3450D /* WUAlivcAnchorViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUAlivcAnchorViewManager.h; sourceTree = "<group>"; };
+		7F60BDF62AF3793600C3450D /* WUAlivcAnchorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUAlivcAnchorView.h; sourceTree = "<group>"; };
+		7F60BDF72AF3793600C3450D /* WUAlivcAnchorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUAlivcAnchorView.m; sourceTree = "<group>"; };
+		7F60BDFA2AF37A0900C3450D /* RNAlivcpusher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNAlivcpusher.h; sourceTree = "<group>"; };
+		7F60BDFB2AF37A0900C3450D /* RNAlivcpusher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNAlivcpusher.m; sourceTree = "<group>"; };
+		7F60BDFE2AF37A8400C3450D /* AUILoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AUILoginViewController.m; sourceTree = "<group>"; };
+		7F60BDFF2AF37A8400C3450D /* AUIHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AUIHomeViewController.m; sourceTree = "<group>"; };
+		7F60BE002AF37A8400C3450D /* AUILoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUILoginViewController.h; sourceTree = "<group>"; };
+		7F60BE022AF37A8400C3450D /* AUILiveListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUILiveListViewController.h; sourceTree = "<group>"; };
+		7F60BE032AF37A8400C3450D /* AUILiveCreateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUILiveCreateViewController.h; sourceTree = "<group>"; };
+		7F60BE042AF37A8400C3450D /* AUILiveManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUILiveManager.h; sourceTree = "<group>"; };
+		7F60BE052AF37A8400C3450D /* AUILiveCreateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AUILiveCreateViewController.m; sourceTree = "<group>"; };
+		7F60BE062AF37A8400C3450D /* AUILiveListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AUILiveListViewController.m; sourceTree = "<group>"; };
+		7F60BE072AF37A8400C3450D /* AUILiveManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AUILiveManager.m; sourceTree = "<group>"; };
+		7F60BE082AF37A8400C3450D /* AUIHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUIHomeViewController.h; sourceTree = "<group>"; };
+		7F60BE092AF37A8400C3450D /* Resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resource.bundle; sourceTree = "<group>"; };
+		7F60BE102AF37DAE00C3450D /* license.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = license.crt; path = RNAlivcpusher/license.crt; sourceTree = "<group>"; };
+		7FC006652B05B1850025BBA1 /* CustomViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomViewManager.h; sourceTree = "<group>"; };
+		7FC006662B05B1850025BBA1 /* CustomViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomViewManager.m; sourceTree = "<group>"; };
+		7FC006682B05B1AF0025BBA1 /* CustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		7FC006692B05B1AF0025BBA1 /* CustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		7FC0066B2B077FD70025BBA1 /* WUQueenBeautyModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WUQueenBeautyModule.h; sourceTree = "<group>"; };
+		7FC0066C2B077FD70025BBA1 /* WUQueenBeautyModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WUQueenBeautyModule.m; sourceTree = "<group>"; };
+		7FC0066F2B07867D0025BBA1 /* NSBundle+Alivcpusher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Alivcpusher.h"; sourceTree = "<group>"; };
+		7FC006702B07867D0025BBA1 /* NSBundle+Alivcpusher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Alivcpusher.m"; sourceTree = "<group>"; };
+		7FCF2F812B0C91B2006586AF /* RCTScreenModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTScreenModule.m; sourceTree = "<group>"; };
+		7FCF2F822B0C91B2006586AF /* RNAliplayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNAliplayer.m; sourceTree = "<group>"; };
+		7FCF2F832B0C91B2006586AF /* RNAliplayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNAliplayerManager.h; sourceTree = "<group>"; };
+		7FCF2F842B0C91B2006586AF /* RCTScreenModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTScreenModule.h; sourceTree = "<group>"; };
+		7FCF2F852B0C91B2006586AF /* RNAliplayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNAliplayerManager.m; sourceTree = "<group>"; };
+		7FCF2F862B0C91B2006586AF /* RNAliplayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNAliplayer.h; sourceTree = "<group>"; };
+		7FCF2F8A2B0C9BC0006586AF /* AUILiveManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUILiveManager.h; sourceTree = "<group>"; };
+		7FCF2F8B2B0C9BC0006586AF /* AUILiveManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AUILiveManager.m; sourceTree = "<group>"; };
+		7FCF2F8D2B0C9C04006586AF /* AUIRoomItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AUIRoomItem.m; sourceTree = "<group>"; };
+		7FCF2F8E2B0C9C04006586AF /* AUIRoomItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUIRoomItem.h; sourceTree = "<group>"; };
+		7FFBC3312AFE1289002BEB97 /* AUIRoomItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AUIRoomItem.h; sourceTree = "<group>"; };
+		7FFBC3322AFE1289002BEB97 /* AUIRoomItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AUIRoomItem.m; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RNAlivcpusher/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-RNAlivcpusher.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* RNAlivcpusherTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* RNAlivcpusherTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = RNAlivcpusherTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* RNAlivcpusher */ = {
+			isa = PBXGroup;
+			children = (
+				7FCF2F802B0C91B2006586AF /* RNAliplayer */,
+				7FC0066E2B0786400025BBA1 /* Extension */,
+				7F60BE102AF37DAE00C3450D /* license.crt */,
+				7F60BDFD2AF37A8400C3450D /* Home */,
+				7F60BDF22AF3793600C3450D /* RNModule */,
+				7F60BDF52AF3793600C3450D /* RNView */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = RNAlivcpusher;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-RNAlivcpusher.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F60BDF22AF3793600C3450D /* RNModule */ = {
+			isa = PBXGroup;
+			children = (
+				7FCF2F8E2B0C9C04006586AF /* AUIRoomItem.h */,
+				7FCF2F8D2B0C9C04006586AF /* AUIRoomItem.m */,
+				7FCF2F8A2B0C9BC0006586AF /* AUILiveManager.h */,
+				7FCF2F8B2B0C9BC0006586AF /* AUILiveManager.m */,
+				7F60BDF42AF3793600C3450D /* WUAlivcAnchorViewManager.h */,
+				7F60BDF32AF3793600C3450D /* WUAlivcAnchorViewManager.m */,
+				7F29D37C2B03721900FBDE44 /* WUAlivcAudienceViewManager.h */,
+				7F29D37D2B03721900FBDE44 /* WUAlivcAudienceViewManager.m */,
+				7F60BDFA2AF37A0900C3450D /* RNAlivcpusher.h */,
+				7F60BDFB2AF37A0900C3450D /* RNAlivcpusher.m */,
+				7FC006652B05B1850025BBA1 /* CustomViewManager.h */,
+				7FC006662B05B1850025BBA1 /* CustomViewManager.m */,
+				7FC0066B2B077FD70025BBA1 /* WUQueenBeautyModule.h */,
+				7FC0066C2B077FD70025BBA1 /* WUQueenBeautyModule.m */,
+			);
+			name = RNModule;
+			path = RNAlivcpusher/RNModule;
+			sourceTree = "<group>";
+		};
+		7F60BDF52AF3793600C3450D /* RNView */ = {
+			isa = PBXGroup;
+			children = (
+				7F29D37A2B0371D900FBDE44 /* WUAlivcAudienceView.h */,
+				7F29D3792B0371D900FBDE44 /* WUAlivcAudienceView.m */,
+				7F60BDF62AF3793600C3450D /* WUAlivcAnchorView.h */,
+				7F60BDF72AF3793600C3450D /* WUAlivcAnchorView.m */,
+				7FC006682B05B1AF0025BBA1 /* CustomView.h */,
+				7FC006692B05B1AF0025BBA1 /* CustomView.m */,
+			);
+			name = RNView;
+			path = RNAlivcpusher/RNView;
+			sourceTree = "<group>";
+		};
+		7F60BDFD2AF37A8400C3450D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7FFBC3302AFE1276002BEB97 /* Model */,
+				7F60BDFE2AF37A8400C3450D /* AUILoginViewController.m */,
+				7F60BDFF2AF37A8400C3450D /* AUIHomeViewController.m */,
+				7F60BE002AF37A8400C3450D /* AUILoginViewController.h */,
+				7F60BE012AF37A8400C3450D /* Live */,
+				7F60BE082AF37A8400C3450D /* AUIHomeViewController.h */,
+				7F60BE092AF37A8400C3450D /* Resource.bundle */,
+			);
+			name = Home;
+			path = RNAlivcpusher/Home;
+			sourceTree = "<group>";
+		};
+		7F60BE012AF37A8400C3450D /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				7F60BE022AF37A8400C3450D /* AUILiveListViewController.h */,
+				7F60BE062AF37A8400C3450D /* AUILiveListViewController.m */,
+				7F60BE032AF37A8400C3450D /* AUILiveCreateViewController.h */,
+				7F60BE052AF37A8400C3450D /* AUILiveCreateViewController.m */,
+				7F60BE042AF37A8400C3450D /* AUILiveManager.h */,
+				7F60BE072AF37A8400C3450D /* AUILiveManager.m */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		7FC0066E2B0786400025BBA1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7FC0066F2B07867D0025BBA1 /* NSBundle+Alivcpusher.h */,
+				7FC006702B07867D0025BBA1 /* NSBundle+Alivcpusher.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		7FCF2F802B0C91B2006586AF /* RNAliplayer */ = {
+			isa = PBXGroup;
+			children = (
+				7FCF2F812B0C91B2006586AF /* RCTScreenModule.m */,
+				7FCF2F822B0C91B2006586AF /* RNAliplayer.m */,
+				7FCF2F832B0C91B2006586AF /* RNAliplayerManager.h */,
+				7FCF2F842B0C91B2006586AF /* RCTScreenModule.h */,
+				7FCF2F852B0C91B2006586AF /* RNAliplayerManager.m */,
+				7FCF2F862B0C91B2006586AF /* RNAliplayer.h */,
+			);
+			path = RNAliplayer;
+			sourceTree = "<group>";
+		};
+		7FFBC3302AFE1276002BEB97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7FFBC3312AFE1289002BEB97 /* AUIRoomItem.h */,
+				7FFBC3322AFE1289002BEB97 /* AUIRoomItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* RNAlivcpusher */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* RNAlivcpusherTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* RNAlivcpusher.app */,
+				00E356EE1AD99517003FC87E /* RNAlivcpusherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-RNAlivcpusher.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-RNAlivcpusher.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* RNAlivcpusherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RNAlivcpusherTests" */;
+			buildPhases = (
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = RNAlivcpusherTests;
+			productName = RNAlivcpusherTests;
+			productReference = 00E356EE1AD99517003FC87E /* RNAlivcpusherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* RNAlivcpusher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RNAlivcpusher" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNAlivcpusher;
+			productName = RNAlivcpusher;
+			productReference = 13B07F961A680F5B00A75B9A /* RNAlivcpusher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RNAlivcpusher" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* RNAlivcpusher */,
+				00E356ED1AD99517003FC87E /* RNAlivcpusherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F60BE0F2AF37A8400C3450D /* Resource.bundle in Resources */,
+				7F60BE112AF37DAE00C3450D /* license.crt in Resources */,
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RNAlivcpusher/Pods-RNAlivcpusher-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RNAlivcpusher/Pods-RNAlivcpusher-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNAlivcpusher/Pods-RNAlivcpusher-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNAlivcpusher-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RNAlivcpusher/Pods-RNAlivcpusher-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RNAlivcpusher/Pods-RNAlivcpusher-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNAlivcpusher/Pods-RNAlivcpusher-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* RNAlivcpusherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F60BDF82AF3793600C3450D /* WUAlivcAnchorViewManager.m in Sources */,
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				7F60BE0C2AF37A8400C3450D /* AUILiveCreateViewController.m in Sources */,
+				7FCF2F8C2B0C9BC0006586AF /* AUILiveManager.m in Sources */,
+				7F60BE0D2AF37A8400C3450D /* AUILiveListViewController.m in Sources */,
+				7F60BDF92AF3793600C3450D /* WUAlivcAnchorView.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				7FCF2F8F2B0C9C05006586AF /* AUIRoomItem.m in Sources */,
+				7F29D37B2B0371D900FBDE44 /* WUAlivcAudienceView.m in Sources */,
+				7F29D37E2B03721900FBDE44 /* WUAlivcAudienceViewManager.m in Sources */,
+				7F60BE0A2AF37A8400C3450D /* AUILoginViewController.m in Sources */,
+				7FC006712B07867D0025BBA1 /* NSBundle+Alivcpusher.m in Sources */,
+				7FFBC3332AFE1289002BEB97 /* AUIRoomItem.m in Sources */,
+				7FCF2F882B0C91B2006586AF /* RNAliplayer.m in Sources */,
+				7FC0066D2B077FD70025BBA1 /* WUQueenBeautyModule.m in Sources */,
+				7FCF2F892B0C91B2006586AF /* RNAliplayerManager.m in Sources */,
+				7FC006672B05B1850025BBA1 /* CustomViewManager.m in Sources */,
+				7F60BE0E2AF37A8400C3450D /* AUILiveManager.m in Sources */,
+				7FC0066A2B05B1AF0025BBA1 /* CustomView.m in Sources */,
+				7F60BDFC2AF37A0900C3450D /* RNAlivcpusher.m in Sources */,
+				7F60BE0B2AF37A8400C3450D /* AUIHomeViewController.m in Sources */,
+				7FCF2F872B0C91B2006586AF /* RCTScreenModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* RNAlivcpusher */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RNAlivcpusherTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNAlivcpusher.app/RNAlivcpusher";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = RNAlivcpusherTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNAlivcpusher.app/RNAlivcpusher";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-RNAlivcpusher.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EZLGLB84UG;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = RNAlivcpusher/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = I;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.worldunion.wuknowledge;
+				PRODUCT_NAME = RNAlivcpusher;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-RNAlivcpusher.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EZLGLB84UG;
+				INFOPLIST_FILE = RNAlivcpusher/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = I;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.worldunion.wuknowledge;
+				PRODUCT_NAME = RNAlivcpusher;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RNAlivcpusherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RNAlivcpusher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RNAlivcpusher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
