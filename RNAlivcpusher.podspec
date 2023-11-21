@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RNAlivcpusher'
-  s.version          = '2.2.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of RNAlivcpusher.'
 
 # This description is used to generate tags and improve search results.
@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/aliyunvideo/RNAlivcpusher_iOS'
+  s.homepage         = 'https://github.com/liangsay/RNAlivcpusher'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :text => 'LICENSE' }
   s.author           = { 'aliyunvideo' => 'videosdk@service.aliyun.com' }
-  s.source           = { :git => 'https://github.com/aliyunvideo/RNAlivcpusher_iOS', :tag =>"v#{s.version}" }
+  s.source           = { :git => 'https://github.com/liangsay/RNAlivcpusher.git', :tag =>"v#{s.version}" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
   s.static_framework = true
   s.default_subspecs='AliVCSDK_PremiumLive'
   s.pod_target_xcconfig = {'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) COCOAPODS=1 DISABLE_QUEEN'}
